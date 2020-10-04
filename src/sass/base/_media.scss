@@ -1,0 +1,25 @@
+@media (max-width: 1160px) {
+	.country {
+        &__block {
+            padding: 20px 5px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &__item {
+            margin: 0 10px 10px 10px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+	.country {
+        &__block {
+            justify-content: start;
+        }
+        &__item {
+            margin: 0 20px 10px 20px;
+            justify-content: start;
+        }
+    }
+}
