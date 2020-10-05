@@ -21,6 +21,15 @@
             padding: 0 10px;
         }
     }
+    .with-prengi {
+        padding: 40px 0 20px;
+        &__negative, &__positive {
+            justify-content: space-around;
+        }
+        &__item {
+            margin: 0 10px 20px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
