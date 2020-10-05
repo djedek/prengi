@@ -53,3 +53,30 @@
     }
 }
 
+.carousel-mini {
+    position: relative;
+    max-width: 950px;
+    margin: 35px auto 0;
+    .prev_mini, .next_mini {
+        border: none;
+        background: none;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .prev_mini {
+        left: -45px;
+    }
+    .next_mini {
+        right: -45px;
+    }
+    &__img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tns-nav {
+        display: none;
+    }
+}
+
