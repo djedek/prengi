@@ -1,6 +1,9 @@
 @import "libs/fonts";
 @import "libs/bootstrap-reboot.min";
 @import "libs/tiny-slider";
+@import "libs/animate";
+
+@import "base/animations";
 
 * {
 	font-family: "Roboto", sans-serif;
@@ -23,5 +26,6 @@
 @import "blocks/data";
 @import "blocks/start";
 @import "blocks/footer";
+@import "blocks/pageup";
 
 @import "base/media";

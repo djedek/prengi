@@ -1,0 +1,23 @@
+@keyframes driga {
+    from {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-20%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes shad {
+    from {
+        text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        text-shadow: none;
+    }
+    to {
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+}

@@ -47,6 +47,9 @@
     &__img {
         display: block;
         margin: 50px auto 0;
+        &_animated {
+            animation: driga 2s infinite linear;
+        }
     }
     &__title {
         margin-top: 33px;
@@ -55,6 +58,9 @@
         line-height: 30px;
         text-align: center;
         color: #393939;
+        &_animated {
+            animation: shad 2s infinite linear;
+        }
     }
     &__positive {
         margin-top: 35px;

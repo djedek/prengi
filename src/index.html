@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Prengi</title>
 </head>
@@ -53,7 +53,7 @@
     </div>
 
     <section class="promo">
-        <div class="carousel">
+        <div id="up" class="carousel">
             <div class="carousel__my-slider">
                 <div><img src="img/bg/Promo_bg.jpg" alt="slide" class="carousel__img"></div>
                 <div><img src="img/bg/Promo_bg.jpg" alt="slide" class="carousel__img"></div>
@@ -110,8 +110,8 @@
                     </div>
                 </div>
             </div>
-            <img class="with-prengi__img" src="img/arrow_down.png" alt="with-prengi">
-            <h2 class="with-prengi__title">С PRENGI</h2>
+            <img class="with-prengi__img with-prengi__img_animated" src="img/arrow_down.png" alt="with-prengi">
+            <h2 class="with-prengi__title with-prengi__title_animated">С PRENGI</h2>
             <div class="with-prengi__positive">
                 <div class="with-prengi__item with-prengi__item_pic4">
                     <div class="with-prengi__descr with-prengi__descr_bold">
@@ -163,37 +163,37 @@
         <div class="container">
             <h2 class="title title_black">Преимущества Prengi для <br>Вашей отрасли</h2>
             <div class="advantages__wrapper">
-                <div class="advantages__item">
+                <div class="advantages__item animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="1s">
                     <img src="img/bg/advantages_1.jpg" alt="advantage" class="advantages__img">
                     <div class="advantages__descr">
                         <div class="advantages__text">Возможность внедрения и тестирования в реальном времени</div>
                     </div>
                 </div>
-                <div class="advantages__item">
+                <div class="advantages__item animate__animated animate__fadeInRight wow" data-wow-duration="1s" data-wow-delay="1s">
                     <img src="img/bg/advantages_2.jpg" alt="advantage" class="advantages__img">
                     <div class="advantages__descr">
                         <div class="advantages__text">Система “Intellect”, учет уровня доступов</div>
                     </div>
                 </div>
-                <div class="advantages__item">
+                <div class="advantages__item animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="1s">
                     <img src="img/bg/advantages_3.jpg" alt="advantage" class="advantages__img">
                     <div class="advantages__descr">
                         <div class="advantages__text">Возможность использовать из любой точки мира с любого устройства</div>
                     </div>
                 </div>
-                <div class="advantages__item">
+                <div class="advantages__item animate__animated animate__fadeInRight wow" data-wow-duration="1s" data-wow-delay="1s">
                     <img src="img/bg/advantages_4.jpg" alt="advantage" class="advantages__img">
                     <div class="advantages__descr">
                         <div class="advantages__text">Нет необходимости установки и стационарной работы программиста</div>
                     </div>
                 </div>
-                <div class="advantages__item">
+                <div class="advantages__item animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="1s">
                     <img src="img/bg/advantages_5.jpg" alt="advantage" class="advantages__img">
                     <div class="advantages__descr">
                         <div class="advantages__text">“Живые” <br>бизнес-процессы</div>
                     </div>
                 </div>
-                <div class="advantages__item">
+                <div class="advantages__item animate__animated animate__fadeInRight wow" data-wow-duration="1s" data-wow-delay="1s">
                     <img src="img/bg/advantages_6.jpg" alt="advantage" class="advantages__img">
                     <div class="advantages__descr">
                         <div class="advantages__text">Никаких предоплат, оплата после старта</div>
@@ -287,7 +287,11 @@
             </div>
     </footer>
 
+    <a class="pageup" href="#up"><img src="icons/up.svg" alt="up"></a>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="js/tiny-slider.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
