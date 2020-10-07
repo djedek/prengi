@@ -65,6 +65,20 @@
 
         }
     }
+    .footer {
+        padding: 28px 0 20px;
+        &__wrapper {
+            padding: 0 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        &__about-company {
+            max-width: 100%;
+            margin-bottom: 30px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -213,5 +227,14 @@
             padding-left: 40px;
             padding-right: 0px;
         }
-    } 
+    }
+    .footer {
+        &__wrapper{
+            justify-content: space-between;
+        }
+        &__menu{
+            width: 300px;
+            margin-bottom: 20px;
+        }
+    }
 }

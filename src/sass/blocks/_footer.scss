@@ -1,0 +1,65 @@
+.footer {
+    padding: 48px 0 40px;
+    max-width: 1920px;
+    min-height: 497px;
+    margin: 0 auto;
+    background-color: #0082a1;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__about-company {
+        max-width: 380px;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 19px;
+        text-align: left;
+        color: #fff;
+    }
+    &__logo {
+        display: block;
+        margin: 14px 0;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 19px;
+        text-align: left;
+        color: #fff;
+    }
+    &__menu-block {
+        margin: 5px 0 0 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    &__item {
+        display: block;
+    }
+    &__link {
+        display: block;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: left;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+    hr {
+        max-width: 1171px;
+        margin: 40px auto 35px;
+        border-color:  rgba(255, 255, 255, 0.5);
+        border-bottom: none;
+    }
+    &__copyrite {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 13px;
+        color: #ffffff;
+    }
+}
